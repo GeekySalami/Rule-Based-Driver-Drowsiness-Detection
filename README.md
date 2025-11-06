@@ -19,7 +19,6 @@ Driver drowsiness is a major cause of road accidents worldwide. This repository 
 - [Mediapipe](https://google.github.io/mediapipe/) (ML-powered face mesh and landmark detection)
 - Computer vision and signal processing techniques
 - No explicit deep learning model training; relies on Mediapipe's pretrained models for face/eye/mouth landmark extraction
-- [List any other relevant frameworks/libraries as appropriate]
 
 ## Getting Started
 
@@ -30,7 +29,6 @@ Driver drowsiness is a major cause of road accidents worldwide. This repository 
 - mediapipe
 - pygame
 - NumPy
-- [Other dependencies as used in your project]
 
 ### Installation
 
@@ -58,7 +56,7 @@ Driver drowsiness is a major cause of road accidents worldwide. This repository 
 2. For processing a video file:
 
    ```bash
-   python Finale_wth_mndppe.py --video path_to_video.mp4
+   python Finale_wth_mndppe.py
    ```
 
 3. Configure rule thresholds and parameters in `config.py` as needed.
@@ -71,25 +69,12 @@ Driver drowsiness is a major cause of road accidents worldwide. This repository 
 - `requirements.txt` – Python dependencies.
 - `README.md` – Project documentation.
 
-## Demo
-
-Sample demonstration (screenshots/gif/video) of the system in action:
-![Demo Screenshot](demo/demo_screenshot.png)
 
 ## Contributing
 
 Contributions are welcome! Please fork the repository, submit PRs, or open issues to discuss improvements and bug fixes.
 
-## License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
-
 ## Acknowledgements
 
 - [OpenCV](https://opencv.org/)
 - [Mediapipe](https://google.github.io/mediapipe/)
-- [Any other references]
-
-## Contact
-
-For questions or collaboration opportunities, contact [Your Name or Email].
